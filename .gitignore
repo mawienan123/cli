@@ -18,5 +18,5 @@ local.config.js
 dist.zip
 .DS_Store
 .eslintcache
-generator-clidd
+
 yeoman-cli
