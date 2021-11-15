@@ -101,7 +101,7 @@ async function wrapLoading(fn, message, ...args) {
   } catch (error) {
     console.log(error, 'error')
     // 状态为修改为失败
-    spinner.fail('Request failded, refetch ...')
+    spinner.fail('Request failded, refetcdh ...')
   }
 }
 
