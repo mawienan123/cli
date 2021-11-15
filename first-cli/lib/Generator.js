@@ -8,6 +8,7 @@ const chalk = require('chalk')
 const fs = require('fs')
 
 let stat = fs.stat
+
 const copy = function (src, dst) {
   // 读取目录中的所有文件/目录
   fs.readdir(src, function (err, paths) {
@@ -100,7 +101,7 @@ async function wrapLoading(fn, message, ...args) {
   } catch (error) {
     console.log(error, 'error')
     // 状态为修改为失败
-    spinner.fail('Request failed, refetch ...')
+    spinner.fail('Request failded, refetch ...')
   }
 }
 
