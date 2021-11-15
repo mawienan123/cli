@@ -13,6 +13,7 @@ app/*/*.map
 /sh.exe.stackdump
 .happypack-cache
 /__tests__/coverage
+local.config.js
 .history
 dist.zip
 .DS_Store
